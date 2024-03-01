@@ -1,3 +1,4 @@
+```json
 {
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -108,4 +109,4 @@
   "colorize.languages": ["javascript"],
   "prettier.bracketSameLine": true,
   "editor.accessibilitySupport": "off"
-}
+}```
