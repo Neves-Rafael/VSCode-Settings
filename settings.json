@@ -3,7 +3,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
   },
 
   "workbench.iconTheme": "symbols",
@@ -45,6 +46,7 @@
     "fastify",
     "METEO",
     "originalname",
+    "postgres",
     "redbull",
     "Roboto",
     "Spiderman",
@@ -80,7 +82,6 @@
   "editor.fontLigatures": true,
   "workbench.editor.labelFormat": "short",
   "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "workbench.activityBar.location": "hidden",
   "window.titleBarStyle": "custom",
@@ -91,12 +92,14 @@
     "tailwind.config.*": "tailwind.config*, postcss.config*"
   },
   "terminal.integrated.fontSize": 14,
+  "breadcrumbs.enabled": false,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "workbench.editor.empty.hint": "hidden",
   "window.zoomLevel": 1,
   "symbols.files.associations": {},
   "symbols.folders.associations": {
     "configs": "folder-config",
+    "components": "folder-app",
     "controllers": "folder-app",
     "providers": "folder-green",
     "repositories": "folder-red",
