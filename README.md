@@ -12,31 +12,7 @@
   "editor.wordWrap": "on",
   "git.openRepositoryInParentFolders": "never",
   "explorer.confirmDragAndDrop": false,
-  "githubIssues.queries": [
-    {
-      "label": "Meus Problemas",
-      "query": "default"
-    },
-    {
-      "label": "Problemas criados",
-      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
-    },
-    {
-      "label": "Problemas Recentes",
-      "query": "state:open repo:${owner}/${repository} sort:updated-desc"
-    }
-  ],
   "prettier.useEditorConfig": false,
-  "[dart]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
-  },
   "editor.formatOnSave": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -48,6 +24,7 @@
     "originalname",
     "redbull",
     "Roboto",
+    "signin",
     "Spiderman",
     "sqlite",
     "tailwindcss"
@@ -55,17 +32,7 @@
   "workbench.colorCustomizations": {},
   "workbench.colorTheme": "Min Dark",
   "explorer.compactFolders": false,
-  "redhat.telemetry.enabled": true,
-  "codeium.enableConfig": {
-    "*": false,
-    "prisma": true
-  },
   "files.autoSave": "onFocusChange",
-  "material-icon-theme.languages.associations": {},
-  "material-icon-theme.folders.associations": {
-    "migrations": "tools"
-  },
-  "diffEditor.ignoreTrimWhitespace": false,
   "cSpell.customDictionaries": {},
   "cSpell.language": "en,pt,pt_BR",
   "workbench.statusBar.visible": true,
@@ -77,7 +44,6 @@
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
   "editor.rulers": [80, 120],
-  "workbench.startupEditor": "newUntitledFile",
   "editor.fontLigatures": true,
   "workbench.editor.labelFormat": "short",
   "editor.semanticHighlighting.enabled": false,
@@ -88,8 +54,9 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .eslint*, vite*",
-    "tailwind.config.*": "tailwind.config*, postcss.config*"
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .eslint*, vite*, .npmrc, tsconfig.json",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env": ".env*"
   },
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
@@ -103,10 +70,23 @@
     "repositories": "folder-red",
     "routes": "folder-green-code",
     "services": "pulumi",
-    "tmp": "jenkins"
+    "tmp": "jenkins",
+    "@types": "capacitor",
+    "pages": "folder-app",
+    "libs": "folder-yellow-code",
+    "tests": "robot",
+    "migrations": "folder-green",
+    "http": "folder-blue"
   },
   "editor.tabSize": 2,
   "colorize.languages": ["javascript"],
   "prettier.bracketSameLine": true,
-  "editor.accessibilitySupport": "off"
-}```
+  "editor.accessibilitySupport": "off",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.env.windows": {},
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always", 
+  }
+}
+
+```
